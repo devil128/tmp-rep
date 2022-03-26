@@ -1,0 +1,35 @@
+<header class="header header-2">
+  <div class="header-actions">
+    <clr-dropdown>
+      <button class="btn btn-icon btn-link" clrDropdownTrigger>
+        <clr-icon shape="world"></clr-icon>
+        <clr-icon shape="angle down"></clr-icon>
+      </button>
+      <clr-dropdown-menu clrPosition="bottom-right">
+        <a clrDropdownItem href="/en">
+          English
+        </a>
+        <a clrDropdownItem href="/de">
+          Deutsch
+        </a>
+      </clr-dropdown-menu>
+    </clr-dropdown>
+  </div>
+</header>
+<div class="container">
+  <clr-vertical-nav>
+    <a clrVerticalNavLink routerLink="/">
+      <clr-icon clrVerticalNavIcon shape="home"></clr-icon>
+      Dashboard
+    </a>
+    <a clrVerticalNavLink routerLink="/user-db" i18n>
+      <clr-icon clrVerticalNavIcon shape="user"></clr-icon>
+      Users
+    </a>
+    <a clrVerticalNavLink routerLink="/user" i18n>
+      <clr-icon clrVerticalNavIcon shape="form"></clr-icon>
+      Usermanagement
+    </a>
+  </clr-vertical-nav>
+  <router-outlet></router-outlet>
+</div>

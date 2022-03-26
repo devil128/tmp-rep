@@ -1,0 +1,39 @@
+<form class="login" [formGroup]="loginForm" (ngSubmit)="loginUser()" novalidate>
+  <section class="title">
+    <h5 class="welcome" i18n>Please enter username and password to continue</h5>
+  </section>
+  <div class="login-group">
+    <clr-input-container>
+      <label class="clr-sr-only" i18n>Username</label>
+      <input type="text" name="username" clrInput placeholder="{{usernamePh}}" formControlName="username"/>
+    </clr-input-container>
+    <div *ngIf="!username?.valid && (username?.dirty || username?.touched)">
+      <clr-control-error [hidden]="!username?.hasError('required')" i18n>
+        Username is required.
+      </clr-control-error>
+      <clr-control-error [hidden]="!username?.hasError('minlength')" i18n>
+        Minimum length is 5.
+      </clr-control-error>
+      <clr-control-error [hidden]="!username?.hasError('pattern')" i18n>
+        Can only contain letters, numbers, _, - and ..
+      </clr-control-error>
+    </div>
+    <clr-password-container>
+      <label class="clr-sr-only" i18n>Password</label>
+      <input type="password" name="password" clrPassword placeholder="{{passwordPh}}" formControlName="password"/>
+    </clr-password-container>
+    <div *ngIf="!password?.valid && (password?.dirty || password?.touched)">
+      <clr-control-error [hidden]="!password?.hasError('required')" i18n>
+        Username is required.
+      </clr-control-error>
+      <clr-control-error [hidden]="!password?.hasError('minlength')" i18n>
+        Minimum length is 10.
+      </clr-control-error>
+    </div>
+    <br/>
+    <div *ngIf="loginForm.hasError('loginFailed')" class="error-message" i18n>
+      Username or password are incorrect!
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Login</button>
+  </div>
+</form>

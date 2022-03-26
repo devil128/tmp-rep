@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 99.0.4844.82 (Windows 10)" package="" timestamp="2022-03-25T21:27:07" id="0" hostname="DESKTOP-6T21DEQ" tests="35" errors="0" failures="0" time="0.128">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.82 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.034" classname="AppComponent"/>
+  <testcase name="AppComponent should have 'LearningProject' as title" time="0.005" classname="AppComponent"/>
+  <testcase name="AuthGuard should be created" time="0.002" classname="AuthGuard"/>
+  <testcase name="AuthGuard hasAccessTo() should return false by default" time="0.001" classname="AuthGuard"/>
+  <testcase name="AuthGuard hasAccessTo() should return true after successful login" time="0.001" classname="AuthGuard"/>
+  <testcase name="AuthGuard navigateToLoginAndRedirect() should call router.navigate" time="0.001" classname="AuthGuard"/>
+  <testcase name="AuthGuard canActivate() should return false and redirect to login page by default" time="0.002" classname="AuthGuard"/>
+  <testcase name="AuthGuard canLoad() should return false and redirect to login page by default" time="0.001" classname="AuthGuard"/>
+  <testcase name="AuthService should be created" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService getUser() should return user for known username" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService getUser() should return undefined for unknown username" time="0" classname="AuthService"/>
+  <testcase name="AuthService isPasswordCorrect() should return true for a correct user + password" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService isPasswordCorrect() should return false for an incorrect user/password" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService login() should return true for known user" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService login() should return false for unknown user" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService getLoggedUser() should return null by default" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService getLoggedUser() should return user after login of known user" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService getLoggedUser() should return null after logout of known user" time="0.002" classname="AuthService"/>
+  <testcase name="AuthService getLoggedUser() should return null after failed login of unknown user" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService isUserLoggedIn() should return false by default" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService isUserLoggedIn() should return true after login of known user" time="0" classname="AuthService"/>
+  <testcase name="AuthService isUserLoggedIn() should return false after logout of known user" time="0.001" classname="AuthService"/>
+  <testcase name="AuthService isUserLoggedIn() should return false after failed login of unknown user" time="0.001" classname="AuthService"/>
+  <testcase name="DashboardComponent should create" time="0.013" classname="DashboardComponent"/>
+  <testcase name="DashboardComponent users[] should be filled with 4 values" time="0.003" classname="DashboardComponent"/>
+  <testcase name="LoginComponent should create" time="0.022" classname="LoginComponent"/>
+  <testcase name="LoginComponent loginForm should be empty by default" time="0.005" classname="LoginComponent"/>
+  <testcase name="LoginComponent loginUser() should return false when loginForm is empty" time="0.003" classname="LoginComponent"/>
+  <testcase name="LoginComponent loginUser() should return true when loginForm contains a known user" time="0.003" classname="LoginComponent"/>
+  <testcase name="LoginComponent loginForm should contain an error when an unknown user tries to log in" time="0.004" classname="LoginComponent"/>
+  <testcase name="LoginComponent loginForm should contain no error when a known user tries to log in" time="0.003" classname="LoginComponent"/>
+  <testcase name="LoginComponent getter for username should not return null" time="0.004" classname="LoginComponent"/>
+  <testcase name="LoginComponent getter for password should not return null" time="0.003" classname="LoginComponent"/>
+  <testcase name="UserDbComponent should create" time="0.002" classname="UserDbComponent"/>
+  <testcase name="UserComponent should create" time="0.002" classname="UserComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+app-dashboard, app-user-db, app-user, app-login {
+  flex: 1;
+}

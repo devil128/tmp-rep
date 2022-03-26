@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5767144702631719462" datatype="html">
+        <source><x id="START_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;clr-icon clrVerticalNavIcon shape=&quot;user&quot;&gt;"/><x id="CLOSE_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;/clr-icon&gt;"/> Users </source>
+        <target><x id="START_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;clr-icon clrVerticalNavIcon shape=&quot;user&quot;&gt;"/><x id="CLOSE_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;/clr-icon&gt;"/> Nutzer </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7240249890055252456" datatype="html">
+        <source><x id="START_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;clr-icon clrVerticalNavIcon shape=&quot;form&quot;&gt;"/><x id="CLOSE_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;/clr-icon&gt;"/> Usermanagement </source>
+        <target><x id="START_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;clr-icon clrVerticalNavIcon shape=&quot;form&quot;&gt;"/><x id="CLOSE_TAG_CLR_ICON" ctype="x-clr_icon" equiv-text="&lt;/clr-icon&gt;"/> Nutzerverwaltung </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2772668468223898232" datatype="html">
+        <source>Birthday</source>
+        <target>Geburtstag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2895497476859072795" datatype="html">
+        <source>Please enter username and password to continue</source>
+        <target>Bitte geben Sie zuerst Nutzername und Passwort ein</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5248717555542428023" datatype="html">
+        <source>Username</source>
+        <target>Nutzername</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9081239727073547463" datatype="html">
+        <source> Username is required. </source>
+        <target> Der Nutzername muss eingegeben werden. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">26,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1865588650966216912" datatype="html">
+        <source> Minimum length is 5. </source>
+        <target> Mindestens 5 Zeichen. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3271768093541236262" datatype="html">
+        <source> Can only contain letters, numbers, _, - and .. </source>
+        <target> Darf nur Buchstaben, Zahlen, _, - und . enthalten. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+        <target>Passwort</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+         <context-group purpose="location">
+           <context context-type="sourcefile">src/app/login/login.component.ts</context>
+           <context context-type="linenumber">13</context>
+         </context-group>
+      </trans-unit>
+      <trans-unit id="5480790183909148373" datatype="html">
+        <source> Minimum length is 10. </source>
+        <target> Mindestens 10 Zeichen. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">29,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7344701687396725088" datatype="html">
+        <source> Username or password are incorrect! </source>
+        <target> Nutzername oder Passwort nicht korrekt! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4250294816260367773" datatype="html">
+        <source>user-db works!</source>
+        <target>user-db funktioniert!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/user-db/user-db.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3669534624281925094" datatype="html">
+        <source>user works!</source>
+        <target>user funktioniert!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/user/user.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
